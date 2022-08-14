@@ -62,6 +62,8 @@ Open the robot arm in rviz.
 to do so type this command in cmd: 
 
     roslaunch robot_arm_pkg check_motors.launch
+    
+![Screenshot_1](https://user-images.githubusercontent.com/91455733/184518714-6e7f86d3-7c92-4b47-be82-cef96930cbda.png)
 
 
 You can also open the schematic in Moveit or Gazebo: 
@@ -70,6 +72,7 @@ Gazebo Method:
 
     roslaunch robot_arm_pkg check_motors_gazebo.launch
 
+![Screenshot_2](https://user-images.githubusercontent.com/91455733/184518760-dddc1963-e185-4753-82e2-092258b39a69.png)
 
     
 Moveit Method: 
@@ -77,6 +80,7 @@ Moveit Method:
 
     roslaunch moveit_pkg demo.launch
      
- 
+ ![Screenshot_3](https://user-images.githubusercontent.com/91455733/184518790-8c871f3c-db93-43bd-9907-6a50bc86c03b.png)
+
  
 If any of the above method open the schematic without any error, then your installtion is correct.
